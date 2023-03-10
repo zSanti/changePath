@@ -55,24 +55,18 @@ If () {
 
 ## Si -> Mostrar las rutas cambiadas 102400
 
-
-
 # Mostrar las carpetas que se van a definir con la nueva ruta en la segunda partición
 $changeFolders = @{
     Write-Host "Cambiarás las rutas de las siguientes carpeta por:"
-    'Searches' = '';
-    'Contacts' = '';
-    'Downloads' = '';
-    'Documents' = '';
-    'Desktop' = '';
-    'Favorites' = '';
-    'Images' = '';
-    'Save Games' = '';
-    'Music' = '';
-    'Videos' = '';
-    'Links' = '';
+    'Searches'           =      $SetPathFolder + '\Searches';
+    'Contacts'           =      $SetPathFolder + '\Contacts';
+    'Downloads'          =      $SetPathFolder + '\Downloads';
+    'Documents'          =      $SetPathFolder + '\Documents';
+    'Desktop'            =      $SetPathFolder + '\Desktop';
+    'Favorites'          =      $SetPathFolder + '\Favorites';
+    'OriginalImages'     =      $SetPathFolder + '\Images';
+    'SavedGames'         =      $SetPathFolder + '\SavedGames';
+    'Music'              =      $SetPathFolder + '\Music';
+    'Videos'             =      $SetPathFolder + '\Videos';
+    'Links'              =      $SetPathFolder + '\Links';
 }
-
-
-
-
